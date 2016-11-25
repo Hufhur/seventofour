@@ -11,5 +11,41 @@
 
     <artifactId>seventofour-backend</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.18</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.18</version>
+        </dependency>
+    </dependencies>
+
+
+<build>
+<resources>
+    <resource>
+        <directory>src/resources</directory>
+        <includes>
+            <include>**/*.xml</include>
+        </includes>
+    </resource>
+</resources>
+<plugins>
+    <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>2.3.2</version>
+        <configuration>
+            <source>1.8</source>
+            <target>1.8</target>
+        </configuration>
+    </plugin>
+
+</plugins>
+</build>
 
 </project>

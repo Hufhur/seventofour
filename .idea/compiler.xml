@@ -29,7 +29,7 @@
     <bytecodeTargetLevel target="1.8">
       <module name="fitnesse-fixtures" target="1.5" />
       <module name="seventofour" target="1.5" />
-      <module name="seventofour-backend" target="1.5" />
+      <module name="seventofour-backend" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
