@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/fitnesse-fixtures/fitnesse-fixtures.iml" filepath="$PROJECT_DIR$/fitnesse-fixtures/fitnesse-fixtures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seventofour.iml" filepath="$PROJECT_DIR$/seventofour.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seventofour-backend/seventofour-backend.iml" filepath="$PROJECT_DIR$/seventofour-backend/seventofour-backend.iml" />
+    </modules>
+  </component>
+</project>
